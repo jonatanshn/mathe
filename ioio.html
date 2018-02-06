@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <script>
+        function random(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+        let x 
+        let y
+        let op
+
+        function bdica(){
+            x 
+        }
+        function maahshevon() {
+
+
+            let stop = false;
+            let right = 0;
+            let wrong = 0;
+
+             op = document.getElementById('moshmosh').value;
+             x = random(min, max);
+             y = random(min, max);
+
+            const div = document.getElementById('toto');
+            div.innerHTML = x + op + y
+        }
+
+
+
+    </script>
+</head>
+
+<body>
+    <div id="toto"></div>
+    <input type="number" />
+    <button onclick="maahshevon()">start</button>
+    <button onclick="chek">ok</button>
+    <div > </div>
+    <select id = 'moshmosh'> 
+        <option value="+">+</option> 
+        <option value="-">-</option>
+        <option value="/">/</option>
+        <option value="*">*</option></select>
+</body>
+
+</html>
